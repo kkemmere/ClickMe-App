@@ -17,8 +17,6 @@ function arrayWatcher(tile_id) {
     whichBox(tile_id);
 
     if (tile_array.length === 16) {   
-        tile_array.reverse;
-
         var countInterval = 0;
         let refreshID = setInterval(function () {
             changeColors();
