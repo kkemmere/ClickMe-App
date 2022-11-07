@@ -23,7 +23,7 @@ function arrayWatcher(tile_id) {
             if (++countInterval === 16) {
                 window.clearInterval(refreshID);
             }
-        }, 700);
+        }, 600);
     } else {
         return;
     }
