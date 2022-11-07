@@ -1,0 +1,25 @@
+body {
+    background-color: #15181d;
+    margin: 30px auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ccc;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+.boxesC {
+    height: 100px;
+    width: 100px;
+    background-color: #ccc;
+    border-color: #15181d;
+    margin: 1px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
