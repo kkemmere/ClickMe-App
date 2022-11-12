@@ -1,6 +1,6 @@
 body {
     background-color: #15181d;
-    margin: 30px auto;
+    margin: 48px;
     font-family: 'Courier New', Courier, monospace;
     color: #ccc;
     font-weight: bold;
@@ -8,6 +8,20 @@ body {
 
 h1 {
     text-align: center;
+    margin-top: 64px;
+}
+
+.background-div {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.mt {
+    position: relative;
+    padding-bottom: 0%;
+    z-index: 10;
+    margin-top: 48px;
 }
 
 .boxesC {
