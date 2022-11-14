@@ -11,6 +11,10 @@ h1 {
     margin-top: 64px;
 }
 
+.link {
+    color: #ccc;
+}
+
 .background-div {
   display: flex;
   justify-content: center;
